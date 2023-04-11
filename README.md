@@ -10,9 +10,9 @@ Reusable custom code in Jenkins can
 A shared library is a collection of independent Groovy scripts which you pull into your Jenkinsfile at runtime.
 
 How you create a Jenkins library, step-by-step:
-a.	First you create your Groovy scripts (see further below for details), and add them into your Git repository.
-b.	Then, you add your Shared Library into Jenkins from the Manage Jenkins screen.
-c.	Finally, you pull the Shared Library into your pipeline using this annotation (usually at the top of your Jenkinsfile):
+First you create your Groovy scripts (see further below for details), and add them into your Git repository.
+Then, you add your Shared Library into Jenkins from the Manage Jenkins screen.
+Finally, you pull the Shared Library into your pipeline using this annotation (usually at the top of your Jenkinsfile):
  ![image](https://user-images.githubusercontent.com/127508807/231302567-c41f2911-d3a7-46bf-a306-93a3ce51eb22.png)
 
  
